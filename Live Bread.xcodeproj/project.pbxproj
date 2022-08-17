@@ -1,0 +1,824 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1468107E2764D3C2004D555C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1468107D2764D3C1004D555C /* GoogleService-Info.plist */; };
+		1468108027650EEC004D555C /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1468107F27650EEC004D555C /* Item.swift */; };
+		14681084276681DA004D555C /* ItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14681083276681DA004D555C /* ItemView.swift */; };
+		146810862766B1FE004D555C /* Cart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 146810852766B1FE004D555C /* Cart.swift */; };
+		146810882766CA4B004D555C /* CartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 146810872766CA4A004D555C /* CartView.swift */; };
+		148DC664275F6E0700838097 /* Live_BreadApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 148DC663275F6E0700838097 /* Live_BreadApp.swift */; };
+		148DC666275F6E0700838097 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 148DC665275F6E0700838097 /* ContentView.swift */; };
+		148DC668275F6E0900838097 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 148DC667275F6E0900838097 /* Assets.xcassets */; };
+		148DC66B275F6E0900838097 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 148DC66A275F6E0900838097 /* Preview Assets.xcassets */; };
+		148DC675275F6E0A00838097 /* Live_BreadTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 148DC674275F6E0A00838097 /* Live_BreadTests.swift */; };
+		148DC67F275F6E0A00838097 /* Live_BreadUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 148DC67E275F6E0A00838097 /* Live_BreadUITests.swift */; };
+		148DC681275F6E0A00838097 /* Live_BreadUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 148DC680275F6E0A00838097 /* Live_BreadUITestsLaunchTests.swift */; };
+		148DC691275F898800838097 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 148DC690275F898800838097 /* Home.swift */; };
+		148DC693275F89D100838097 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 148DC692275F89D100838097 /* HomeViewModel.swift */; };
+		148DC6D02760D41300838097 /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 148DC6CF2760D41300838097 /* Menu.swift */; };
+		3DCCDB41E8C02D2ECF650560 /* Pods_Live_BreadTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6386187A87CC9B6D4B0DC24A /* Pods_Live_BreadTests.framework */; };
+		7E7A3407873164727276673D /* Pods_Live_Bread.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 492906B57BA9FF95F6FE87C9 /* Pods_Live_Bread.framework */; };
+		968BE07AA5AA20C21772067C /* Pods_Live_Bread_Live_BreadUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E4A1568463A7F729A82A848 /* Pods_Live_Bread_Live_BreadUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		148DC671275F6E0A00838097 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 148DC658275F6E0600838097 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 148DC65F275F6E0600838097;
+			remoteInfo = "Live Bread";
+		};
+		148DC67B275F6E0A00838097 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 148DC658275F6E0600838097 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 148DC65F275F6E0600838097;
+			remoteInfo = "Live Bread";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1468107D2764D3C1004D555C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		1468107F27650EEC004D555C /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		14681083276681DA004D555C /* ItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemView.swift; sourceTree = "<group>"; };
+		146810852766B1FE004D555C /* Cart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cart.swift; sourceTree = "<group>"; };
+		146810872766CA4A004D555C /* CartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartView.swift; sourceTree = "<group>"; };
+		148DC660275F6E0700838097 /* Live Bread.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Live Bread.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		148DC663275F6E0700838097 /* Live_BreadApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Live_BreadApp.swift; sourceTree = "<group>"; };
+		148DC665275F6E0700838097 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		148DC667275F6E0900838097 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		148DC66A275F6E0900838097 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		148DC670275F6E0A00838097 /* Live BreadTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Live BreadTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		148DC674275F6E0A00838097 /* Live_BreadTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Live_BreadTests.swift; sourceTree = "<group>"; };
+		148DC67A275F6E0A00838097 /* Live BreadUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Live BreadUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		148DC67E275F6E0A00838097 /* Live_BreadUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Live_BreadUITests.swift; sourceTree = "<group>"; };
+		148DC680275F6E0A00838097 /* Live_BreadUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Live_BreadUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		148DC690275F898800838097 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		148DC692275F89D100838097 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		148DC6CF2760D41300838097 /* Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
+		2E4A1568463A7F729A82A848 /* Pods_Live_Bread_Live_BreadUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Live_Bread_Live_BreadUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C0D532071B729EB6C92972E /* Pods-Live BreadTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Live BreadTests.release.xcconfig"; path = "Target Support Files/Pods-Live BreadTests/Pods-Live BreadTests.release.xcconfig"; sourceTree = "<group>"; };
+		492906B57BA9FF95F6FE87C9 /* Pods_Live_Bread.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Live_Bread.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		55A0B14C78952BF6BDC3A4B6 /* Pods-Live Bread-Live BreadUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Live Bread-Live BreadUITests.release.xcconfig"; path = "Target Support Files/Pods-Live Bread-Live BreadUITests/Pods-Live Bread-Live BreadUITests.release.xcconfig"; sourceTree = "<group>"; };
+		6386187A87CC9B6D4B0DC24A /* Pods_Live_BreadTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Live_BreadTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6861BFF033752AEB267158AB /* Pods-Live BreadTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Live BreadTests.debug.xcconfig"; path = "Target Support Files/Pods-Live BreadTests/Pods-Live BreadTests.debug.xcconfig"; sourceTree = "<group>"; };
+		831586EDCAAE7F06A2E74DC2 /* Pods-Live Bread.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Live Bread.debug.xcconfig"; path = "Target Support Files/Pods-Live Bread/Pods-Live Bread.debug.xcconfig"; sourceTree = "<group>"; };
+		DA04E57CECA5F770D548D8E0 /* Pods-Live Bread-Live BreadUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Live Bread-Live BreadUITests.debug.xcconfig"; path = "Target Support Files/Pods-Live Bread-Live BreadUITests/Pods-Live Bread-Live BreadUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		DBE0280FB4593A6967E545A1 /* Pods-Live Bread.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Live Bread.release.xcconfig"; path = "Target Support Files/Pods-Live Bread/Pods-Live Bread.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		148DC65D275F6E0600838097 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E7A3407873164727276673D /* Pods_Live_Bread.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		148DC66D275F6E0A00838097 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DCCDB41E8C02D2ECF650560 /* Pods_Live_BreadTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		148DC677275F6E0A00838097 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				968BE07AA5AA20C21772067C /* Pods_Live_Bread_Live_BreadUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		148DC657275F6E0600838097 = {
+			isa = PBXGroup;
+			children = (
+				148DC662275F6E0700838097 /* Live Bread */,
+				148DC673275F6E0A00838097 /* Live BreadTests */,
+				148DC67D275F6E0A00838097 /* Live BreadUITests */,
+				148DC661275F6E0700838097 /* Products */,
+				8CFE191FABC5DD2DC904FC43 /* Pods */,
+				7B7508ADBF702AC45CF28ADD /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		148DC661275F6E0700838097 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				148DC660275F6E0700838097 /* Live Bread.app */,
+				148DC670275F6E0A00838097 /* Live BreadTests.xctest */,
+				148DC67A275F6E0A00838097 /* Live BreadUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		148DC662275F6E0700838097 /* Live Bread */ = {
+			isa = PBXGroup;
+			children = (
+				1468107D2764D3C1004D555C /* GoogleService-Info.plist */,
+				148DC68F275F896B00838097 /* ViewModel */,
+				148DC68E275F896600838097 /* Model */,
+				148DC68D275F895C00838097 /* View */,
+				148DC663275F6E0700838097 /* Live_BreadApp.swift */,
+				148DC665275F6E0700838097 /* ContentView.swift */,
+				148DC667275F6E0900838097 /* Assets.xcassets */,
+				148DC669275F6E0900838097 /* Preview Content */,
+			);
+			path = "Live Bread";
+			sourceTree = "<group>";
+		};
+		148DC669275F6E0900838097 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				148DC66A275F6E0900838097 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		148DC673275F6E0A00838097 /* Live BreadTests */ = {
+			isa = PBXGroup;
+			children = (
+				148DC674275F6E0A00838097 /* Live_BreadTests.swift */,
+			);
+			path = "Live BreadTests";
+			sourceTree = "<group>";
+		};
+		148DC67D275F6E0A00838097 /* Live BreadUITests */ = {
+			isa = PBXGroup;
+			children = (
+				148DC67E275F6E0A00838097 /* Live_BreadUITests.swift */,
+				148DC680275F6E0A00838097 /* Live_BreadUITestsLaunchTests.swift */,
+			);
+			path = "Live BreadUITests";
+			sourceTree = "<group>";
+		};
+		148DC68D275F895C00838097 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				148DC690275F898800838097 /* Home.swift */,
+				148DC6CF2760D41300838097 /* Menu.swift */,
+				14681083276681DA004D555C /* ItemView.swift */,
+				146810872766CA4A004D555C /* CartView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		148DC68E275F896600838097 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1468107F27650EEC004D555C /* Item.swift */,
+				146810852766B1FE004D555C /* Cart.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		148DC68F275F896B00838097 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				148DC692275F89D100838097 /* HomeViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		7B7508ADBF702AC45CF28ADD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				492906B57BA9FF95F6FE87C9 /* Pods_Live_Bread.framework */,
+				2E4A1568463A7F729A82A848 /* Pods_Live_Bread_Live_BreadUITests.framework */,
+				6386187A87CC9B6D4B0DC24A /* Pods_Live_BreadTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8CFE191FABC5DD2DC904FC43 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				831586EDCAAE7F06A2E74DC2 /* Pods-Live Bread.debug.xcconfig */,
+				DBE0280FB4593A6967E545A1 /* Pods-Live Bread.release.xcconfig */,
+				DA04E57CECA5F770D548D8E0 /* Pods-Live Bread-Live BreadUITests.debug.xcconfig */,
+				55A0B14C78952BF6BDC3A4B6 /* Pods-Live Bread-Live BreadUITests.release.xcconfig */,
+				6861BFF033752AEB267158AB /* Pods-Live BreadTests.debug.xcconfig */,
+				3C0D532071B729EB6C92972E /* Pods-Live BreadTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		148DC65F275F6E0600838097 /* Live Bread */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 148DC684275F6E0A00838097 /* Build configuration list for PBXNativeTarget "Live Bread" */;
+			buildPhases = (
+				D976AD69AAAE7EC81F285FAA /* [CP] Check Pods Manifest.lock */,
+				148DC65C275F6E0600838097 /* Sources */,
+				148DC65D275F6E0600838097 /* Frameworks */,
+				148DC65E275F6E0600838097 /* Resources */,
+				885310DC66D57C676CD8782D /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Live Bread";
+			productName = "Live Bread";
+			productReference = 148DC660275F6E0700838097 /* Live Bread.app */;
+			productType = "com.apple.product-type.application";
+		};
+		148DC66F275F6E0A00838097 /* Live BreadTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 148DC687275F6E0A00838097 /* Build configuration list for PBXNativeTarget "Live BreadTests" */;
+			buildPhases = (
+				0391E02030F69CC6A14FB6F9 /* [CP] Check Pods Manifest.lock */,
+				148DC66C275F6E0A00838097 /* Sources */,
+				148DC66D275F6E0A00838097 /* Frameworks */,
+				148DC66E275F6E0A00838097 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				148DC672275F6E0A00838097 /* PBXTargetDependency */,
+			);
+			name = "Live BreadTests";
+			productName = "Live BreadTests";
+			productReference = 148DC670275F6E0A00838097 /* Live BreadTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		148DC679275F6E0A00838097 /* Live BreadUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 148DC68A275F6E0A00838097 /* Build configuration list for PBXNativeTarget "Live BreadUITests" */;
+			buildPhases = (
+				ABDDC21F9FEADF5CC87EFC32 /* [CP] Check Pods Manifest.lock */,
+				148DC676275F6E0A00838097 /* Sources */,
+				148DC677275F6E0A00838097 /* Frameworks */,
+				148DC678275F6E0A00838097 /* Resources */,
+				446956D7EC9B3691CBA8257E /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				148DC67C275F6E0A00838097 /* PBXTargetDependency */,
+			);
+			name = "Live BreadUITests";
+			productName = "Live BreadUITests";
+			productReference = 148DC67A275F6E0A00838097 /* Live BreadUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		148DC658275F6E0600838097 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					148DC65F275F6E0600838097 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					148DC66F275F6E0A00838097 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = 148DC65F275F6E0600838097;
+					};
+					148DC679275F6E0A00838097 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = 148DC65F275F6E0600838097;
+					};
+				};
+			};
+			buildConfigurationList = 148DC65B275F6E0600838097 /* Build configuration list for PBXProject "Live Bread" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 148DC657275F6E0600838097;
+			productRefGroup = 148DC661275F6E0700838097 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				148DC65F275F6E0600838097 /* Live Bread */,
+				148DC66F275F6E0A00838097 /* Live BreadTests */,
+				148DC679275F6E0A00838097 /* Live BreadUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		148DC65E275F6E0600838097 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				148DC66B275F6E0900838097 /* Preview Assets.xcassets in Resources */,
+				148DC668275F6E0900838097 /* Assets.xcassets in Resources */,
+				1468107E2764D3C2004D555C /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		148DC66E275F6E0A00838097 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		148DC678275F6E0A00838097 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0391E02030F69CC6A14FB6F9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Live BreadTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		446956D7EC9B3691CBA8257E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Live Bread-Live BreadUITests/Pods-Live Bread-Live BreadUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Live Bread-Live BreadUITests/Pods-Live Bread-Live BreadUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Live Bread-Live BreadUITests/Pods-Live Bread-Live BreadUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		885310DC66D57C676CD8782D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Live Bread/Pods-Live Bread-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Live Bread/Pods-Live Bread-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Live Bread/Pods-Live Bread-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ABDDC21F9FEADF5CC87EFC32 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Live Bread-Live BreadUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D976AD69AAAE7EC81F285FAA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Live Bread-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		148DC65C275F6E0600838097 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				146810882766CA4B004D555C /* CartView.swift in Sources */,
+				148DC666275F6E0700838097 /* ContentView.swift in Sources */,
+				148DC691275F898800838097 /* Home.swift in Sources */,
+				148DC664275F6E0700838097 /* Live_BreadApp.swift in Sources */,
+				148DC693275F89D100838097 /* HomeViewModel.swift in Sources */,
+				14681084276681DA004D555C /* ItemView.swift in Sources */,
+				1468108027650EEC004D555C /* Item.swift in Sources */,
+				148DC6D02760D41300838097 /* Menu.swift in Sources */,
+				146810862766B1FE004D555C /* Cart.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		148DC66C275F6E0A00838097 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				148DC675275F6E0A00838097 /* Live_BreadTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		148DC676275F6E0A00838097 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				148DC67F275F6E0A00838097 /* Live_BreadUITests.swift in Sources */,
+				148DC681275F6E0A00838097 /* Live_BreadUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		148DC672275F6E0A00838097 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 148DC65F275F6E0600838097 /* Live Bread */;
+			targetProxy = 148DC671275F6E0A00838097 /* PBXContainerItemProxy */;
+		};
+		148DC67C275F6E0A00838097 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 148DC65F275F6E0600838097 /* Live Bread */;
+			targetProxy = 148DC67B275F6E0A00838097 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		148DC682275F6E0A00838097 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		148DC683275F6E0A00838097 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		148DC685275F6E0A00838097 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 831586EDCAAE7F06A2E74DC2 /* Pods-Live Bread.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Live Bread/Preview Content\"";
+				DEVELOPMENT_TEAM = 5P7ZDD2Z5R;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Please allow to read location for delivery";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nikitarybakovskiy.Live-Bread-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		148DC686275F6E0A00838097 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DBE0280FB4593A6967E545A1 /* Pods-Live Bread.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Live Bread/Preview Content\"";
+				DEVELOPMENT_TEAM = 5P7ZDD2Z5R;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Please allow to read location for delivery";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nikitarybakovskiy.Live-Bread-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		148DC688275F6E0A00838097 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6861BFF033752AEB267158AB /* Pods-Live BreadTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5P7ZDD2Z5R;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nikitarybakovskiy.Live-BreadTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Live Bread.app/Live Bread";
+			};
+			name = Debug;
+		};
+		148DC689275F6E0A00838097 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3C0D532071B729EB6C92972E /* Pods-Live BreadTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5P7ZDD2Z5R;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nikitarybakovskiy.Live-BreadTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Live Bread.app/Live Bread";
+			};
+			name = Release;
+		};
+		148DC68B275F6E0A00838097 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA04E57CECA5F770D548D8E0 /* Pods-Live Bread-Live BreadUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5P7ZDD2Z5R;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nikitarybakovskiy.Live-BreadUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Live Bread";
+			};
+			name = Debug;
+		};
+		148DC68C275F6E0A00838097 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 55A0B14C78952BF6BDC3A4B6 /* Pods-Live Bread-Live BreadUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5P7ZDD2Z5R;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nikitarybakovskiy.Live-BreadUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Live Bread";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		148DC65B275F6E0600838097 /* Build configuration list for PBXProject "Live Bread" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				148DC682275F6E0A00838097 /* Debug */,
+				148DC683275F6E0A00838097 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		148DC684275F6E0A00838097 /* Build configuration list for PBXNativeTarget "Live Bread" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				148DC685275F6E0A00838097 /* Debug */,
+				148DC686275F6E0A00838097 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		148DC687275F6E0A00838097 /* Build configuration list for PBXNativeTarget "Live BreadTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				148DC688275F6E0A00838097 /* Debug */,
+				148DC689275F6E0A00838097 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		148DC68A275F6E0A00838097 /* Build configuration list for PBXNativeTarget "Live BreadUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				148DC68B275F6E0A00838097 /* Debug */,
+				148DC68C275F6E0A00838097 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 148DC658275F6E0600838097 /* Project object */;
+}

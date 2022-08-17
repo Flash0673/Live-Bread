@@ -1,0 +1,6 @@
+framework module Pods_Live_Bread_Live_BreadUITests {
+  umbrella header "Pods-Live Bread-Live BreadUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
